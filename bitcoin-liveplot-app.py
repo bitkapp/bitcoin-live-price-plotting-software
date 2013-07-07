@@ -8,6 +8,7 @@ from collections import OrderedDict
 # Created By BitKapp.com
 # This software is released under GNU License
 # (c) 2013
+# Donate at 1Bc9Jr8rxcp3be4DUHfVdSh3sZ9My9pqog
 
 running_time = 1000  
 end_time = time.time() + running_time
@@ -16,9 +17,9 @@ yaxis_scale = 1.5
 currencies = OrderedDict([('US Dollar','USD'),('British Pound','GBP'),('Euro','EUR')])
 init_curr = 1
 currency = currencies[currencies.keys()[0]]
-curr_links = {'USD':'https://data.mtgox.com/api/2/BTCUSD/money/ticker',
-  	'GBP':'https://data.mtgox.com/api/2/BTCGBP/money/ticker',
-		'EUR':'https://data.mtgox.com/api/2/BTCEUR/money/ticker' }
+curr_links = {'USD':'https://data.mtgox.com/api/2/BTCUSD/money/ticker_fast',
+  	'GBP':'https://data.mtgox.com/api/2/BTCGBP/money/ticker_fast',
+		'EUR':'https://data.mtgox.com/api/2/BTCEUR/money/ticker_fast' }
 curr_symbol = {'USD':'$','GBP':u'\u00A3','EUR':u'\u20AC'}
 
 #Price Request Function
