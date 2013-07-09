@@ -15,7 +15,6 @@ end_time = time.time() + running_time
 yaxis_scale = 1.5
 
 currencies = OrderedDict([('US Dollar','USD'),('British Pound','GBP'),('Euro','EUR')])
-init_curr = 1
 currency = currencies[currencies.keys()[0]]
 curr_links = {'USD':'https://data.mtgox.com/api/2/BTCUSD/money/ticker_fast',
   	'GBP':'https://data.mtgox.com/api/2/BTCGBP/money/ticker_fast',
